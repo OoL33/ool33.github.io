@@ -19,18 +19,6 @@ body {
     align-items: center;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; /* Align items to the start of the cross axis */
-}
-
-.flex-item {
-    flex: 1; /* Allow each item to grow and occupy equal space */
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
 #sidebar {
     margin-top: 200px;
     margin-right: 20px;
