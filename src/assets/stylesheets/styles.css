@@ -12,26 +12,28 @@ body {
     background-position: center center;
 }
 
-/* #root { */
-    /* display: flex; */
-    /* min-height: 100vh; Ensure the container takes up the full viewport height */
-    /* flex-direction: column; */
-/* } */
-
-/* .flex-container {
+#root {
     display: flex;
-    justify-content: space-between; /* Align items with space between them */
-/* } */
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
 
-/* .flex-item { */
-    /* flex: 1; Allow each item to grow and occupy equal space */
-    /* padding: 10px;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the start of the cross axis */
+}
+
+.flex-item {
+    flex: 1; /* Allow each item to grow and occupy equal space */
+    padding: 10px;
     border: 1px solid #ccc;
-} */
+}
 
 #sidebar {
     margin-top: 200px;
-    margin-left: 200px;
+    margin-right: 20px;
     width: 160px;
     color: #a77dc2;
 }
